@@ -1,0 +1,516 @@
+{
+  "timestamp": "2026-04-11T07:49:33.664953",
+  "total_bugs": 50,
+  "bugs_fixed": 10,
+  "fix_rate_percent": 20.0,
+  "avg_iterations_all": 2.8,
+  "avg_iterations_successful": 2.0,
+  "avg_tokens_per_bug": 1640.0,
+  "avg_tokens_per_fix": 1400.0,
+  "avg_cost_per_bug_usd": 0.0541,
+  "avg_cost_per_fix_usd": 0.0462,
+  "avg_latency_seconds": 29.0,
+  "total_cost_usd": 2.71,
+  "detailed_results": [
+    {
+      "bug_id": "bug_000",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_001",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_002",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_003",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_004",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_005",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_006",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_007",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_008",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_009",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_010",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_011",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_012",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_013",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_014",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_015",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_016",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_017",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_018",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_019",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_020",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_021",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_022",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_023",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_024",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_025",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_026",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_027",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_028",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_029",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_030",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_031",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_032",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_033",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_034",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_035",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_036",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_037",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_038",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_039",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_040",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_041",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_042",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_043",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_044",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_045",
+      "bug_name": "project_name",
+      "success": true,
+      "iterations": 2,
+      "tokens_used": 1400,
+      "cost_usd": 0.04619999999999999,
+      "latency_seconds": 25.0,
+      "agent_status": "fixed"
+    },
+    {
+      "bug_id": "bug_046",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_047",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_048",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    },
+    {
+      "bug_id": "bug_049",
+      "bug_name": "project_name",
+      "success": false,
+      "iterations": 3,
+      "tokens_used": 1700,
+      "cost_usd": 0.0561,
+      "latency_seconds": 30.0,
+      "agent_status": "failed_max_iterations"
+    }
+  ]
+}
