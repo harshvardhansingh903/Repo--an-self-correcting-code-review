@@ -1,0 +1,59 @@
+name: Daily Commit
+
+# Trigger conditions
+on:
+  # Run every weekday (Monday-Friday) at 00:00 UTC
+  schedule:
+    - cron: '0 0 * * 1-5'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+# Set permissions for the workflow
+permissions:
+  contents: write
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      # Step 2: Configure git user
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      # Step 3: Append current date and time to activity.log
+      - name: Append timestamp to activity log
+        run: |
+          echo "$(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> activity.log
+      
+      # Step 4: Check if there are changes to commit
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      # Step 5: Commit changes (only if there are changes)
+      - name: Commit changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git add activity.log
+          git commit -m "chore: daily commit - $(date -u +'%Y-%m-%d')"
+      
+      # Step 6: Push changes back to main branch
+      - name: Push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git push origin main
